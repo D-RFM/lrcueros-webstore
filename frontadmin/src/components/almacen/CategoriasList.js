@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 
-export default class CreateUser extends Component {
+export default class CategoriasList extends Component {
     render() {
         return (
-          <div className="content-wrapper">
+            <div className="content-wrapper">
             <section className="content">
               <div className="row">
                 <div className="col-md-12">
@@ -25,7 +25,8 @@ export default class CreateUser extends Component {
                       <div className="row">
                         <div className="col-md-12">
 
-                            <h3>Contenido</h3>     
+                            <h3>Categorias</h3>   
+                              
 
                         </div>
                       </div>
@@ -35,6 +36,6 @@ export default class CreateUser extends Component {
               </div>
             </section>
           </div>
-        );
+        )
     }
 }
